@@ -1,0 +1,25 @@
+{
+  "name": "checkpoint-repro",
+  "version": "1.0.0",
+  "description": "Reproduces ethereumjs-vm 672",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgewecke/checkpoint-repro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgewecke/checkpoint-repro/issues"
+  },
+  "homepage": "https://github.com/cgewecke/checkpoint-repro#readme",
+  "dependencies": {
+    "ganache-core": "^2.10.2",
+    "pify": "^5.0.0",
+    "web3": "^1.2.6"
+  }
+}
